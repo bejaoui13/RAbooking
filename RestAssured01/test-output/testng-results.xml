@@ -1,29 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24654" started-at="2024-02-17T08:48:52 GMT" finished-at="2024-02-17T08:49:17 GMT">
+  <suite name="Suite" duration-ms="73568" started-at="2024-02-17T11:38:59 GMT" finished-at="2024-02-17T11:40:12 GMT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24654" started-at="2024-02-17T08:48:52 GMT" finished-at="2024-02-17T08:49:17 GMT">
-      <class name="bookingfaisal.CreateUpdateBooking">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:bookingfaisal.CreateUpdateBooking@cb51256]" name="beforeTest" is-config="true" duration-ms="3438" started-at="2024-02-17T08:48:52 GMT" finished-at="2024-02-17T08:48:56 GMT">
+    <test name="Test" duration-ms="73568" started-at="2024-02-17T11:38:59 GMT" finished-at="2024-02-17T11:40:12 GMT">
+      <class name="bookingfaisal.DeletedBooking">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:bookingfaisal.DeletedBooking@59906517]" name="beforeTest" is-config="true" duration-ms="8393" started-at="2024-02-17T11:38:59 GMT" finished-at="2024-02-17T11:39:08 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="updateBookingByPatch()[pri:0, instance:bookingfaisal.CreateUpdateBooking@cb51256]" name="updateBookingByPatch" duration-ms="17270" started-at="2024-02-17T08:48:56 GMT" finished-at="2024-02-17T08:49:13 GMT">
+        <test-method status="PASS" signature="deleteBook()[pri:0, instance:bookingfaisal.DeletedBooking@59906517]" name="deleteBook" duration-ms="54036" started-at="2024-02-17T11:39:08 GMT" finished-at="2024-02-17T11:40:02 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBook -->
+      </class> <!-- bookingfaisal.DeletedBooking -->
+      <class name="bookingfaisal.CreateUpdateBooking">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:bookingfaisal.CreateUpdateBooking@42eca56e]" name="beforeTest" is-config="true" duration-ms="54" started-at="2024-02-17T11:40:02 GMT" finished-at="2024-02-17T11:40:02 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="updateBookingByPatch()[pri:0, instance:bookingfaisal.CreateUpdateBooking@42eca56e]" name="updateBookingByPatch" duration-ms="3175" started-at="2024-02-17T11:40:02 GMT" finished-at="2024-02-17T11:40:05 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateBookingByPatch -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:bookingfaisal.CreateUpdateBooking@cb51256]" name="beforeTest" is-config="true" duration-ms="9" started-at="2024-02-17T08:49:13 GMT" finished-at="2024-02-17T08:49:13 GMT">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:bookingfaisal.CreateUpdateBooking@42eca56e]" name="beforeTest" is-config="true" duration-ms="3" started-at="2024-02-17T11:40:05 GMT" finished-at="2024-02-17T11:40:05 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="updateBookingByPutTest()[pri:0, instance:bookingfaisal.CreateUpdateBooking@cb51256]" name="updateBookingByPutTest" duration-ms="3694" started-at="2024-02-17T08:49:13 GMT" finished-at="2024-02-17T08:49:17 GMT">
+        <test-method status="PASS" signature="updateBookingByPutTest()[pri:0, instance:bookingfaisal.CreateUpdateBooking@42eca56e]" name="updateBookingByPutTest" duration-ms="7189" started-at="2024-02-17T11:40:05 GMT" finished-at="2024-02-17T11:40:12 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateBookingByPutTest -->
       </class> <!-- bookingfaisal.CreateUpdateBooking -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
