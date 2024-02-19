@@ -4,6 +4,9 @@
   <test thread-count="5" name="Test">
     <classes>
        <class name="bookingfaisal.CreateUpdateBooking"/>
+       <class name="bookingfaisal.DeletedBooking"/>
+       <class name="bookingfaisal.HealthCheckWithSpecs"/>
+       
      </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
